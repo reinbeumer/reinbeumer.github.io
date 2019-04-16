@@ -35,7 +35,7 @@ easyButton.addEventListener('click', function() {
 hardButton.addEventListener('click', function() {
 	this.classList.add('selected');
 	this.disabled = true;
-	mode = 'easy';
+	mode = 'hard';
 	easyButton.disabled = false;
 	easyButton.classList.remove('selected');
 	createBlocks(numInput.value);
