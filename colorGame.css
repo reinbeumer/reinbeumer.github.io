@@ -2,6 +2,7 @@ body {
 	background-color: #232323;
 	margin: 0;
 	font-family: "Montserrat", "Avenir";
+	color: steelblue;
 }
 
 #numInput {
@@ -10,7 +11,7 @@ body {
 	text-transform: uppercase;
 	height: 90%;
 	font-weight: 700;
-	color: steelblue;
+	color: inherit;
 	font-size: inherit;
 	letter-spacing: 1px;
 	transition: all 0.3s;
@@ -18,7 +19,6 @@ body {
 
 .square {
 	width: 30%;
-	background: purple;
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.66%;
@@ -71,7 +71,7 @@ button {
 	text-transform: uppercase;
 	height: 100%;
 	font-weight: 700;
-	color: steelblue;
+	color: inherit;
 	font-size: inherit;
 	letter-spacing: 1px;
 	transition: all 0.3s;
@@ -81,7 +81,7 @@ button {
 	outline: none;
 }
 
-button:hover {
+button.hoverable:hover {
 	color: white;
 	background: steelblue;
 }
