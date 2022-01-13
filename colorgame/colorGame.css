@@ -1,84 +1,83 @@
 body {
-	background-color: #232323;
-	margin: 0;
-	font-family: "Montserrat", "Avenir";
-	color: steelblue;
+  background-color: #232323;
+  margin: 0;
+  font-family: 'Montserrat', 'Avenir';
+  color: steelblue;
 }
 
 #numInput {
-	border: none;
-	background: none;
-	height: 100%;
-	font-weight: 700;
-	color: inherit;
-	font-size: inherit;
+  border: none;
+  background: none;
+  height: 100%;
+  font-weight: 700;
+  color: inherit;
+  font-size: inherit;
 }
 
 .square {
-	width: 30%;
-	padding-bottom: 30%;
-	float: left;
-	margin: 1.66%;
-	border-radius: 15%;
-	transition: 0.6s;
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 15%;
+  transition: 0.6s;
 }
 
 #container {
-	margin: 0 auto;
-	max-width: 600px;
-	/* padding-top: 20px; */
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 h1 {
-	text-align: center;
-	color: white;
-	background: steelblue;
-	margin: 0;
-	font-weight: normal;
-	font-size: 1.8rem;
-	text-transform: uppercase;
-	line-height: 1.1;
-	padding: 20px 0;
+  text-align: center;
+  color: white;
+  background: steelblue;
+  margin: 0;
+  font-weight: normal;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  line-height: 1.1;
+  padding: 20px 0;
 }
 
 #stripe {
-	background: white;
-	height: 10%;
-	text-align: center;
-	font-size: 0.8rem;
+  background: white;
+  height: 10%;
+  text-align: center;
+  font-size: 0.8rem;
 }
 
 .selected {
-	color: white;
-	background: steelblue;
+  color: white;
+  background: steelblue;
 }
 
 #colorDisplay {
-	font-size: 2.3rem;
+  font-size: 2.3rem;
 }
 
 #message {
-	display: inline-block;
-	width: 20%;
+  display: inline-block;
+  width: 20%;
 }
 
 button {
-	border: none;
-	background: none;
-	text-transform: uppercase;
-	height: 100%;
-	font-weight: 700;
-	color: inherit;
-	font-size: inherit;
-	letter-spacing: 1px;
-	transition: all 0.3s;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: inherit;
+  font-size: inherit;
+  letter-spacing: 1px;
+  transition: all 0.3s;
 }
 
 :focus {
-	outline: none;
+  outline: none;
 }
 
 button.hoverable:hover {
-	color: white;
-	background: steelblue;
+  color: white;
+  background: steelblue;
 }
