@@ -1,4 +1,4 @@
-if ('serviceWorker' in navigator) {
+if ('serviceworker' in navigator) {
   window.addEventListener('load', function () {
     navigator.serviceWorker
       .register('/serviceworker.js')
