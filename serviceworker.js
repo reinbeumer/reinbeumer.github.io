@@ -1,4 +1,5 @@
 const someProjects = 'some-projects-1';
+
 const assets = [
   '/',
   '/index.html',
