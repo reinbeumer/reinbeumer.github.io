@@ -5,9 +5,20 @@
   font-family: 'Roboto', sans-serif;
   --card-width: 16rem;
 }
-body {
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Regular'), local('Roboto-Regular'),
+    url(./fonts/Roboto-Regular.ttf) format('ttf');
+  font-display: swap;
+}
+
+main {
+  text-align: center;
   min-width: 360px;
 }
+
 .container {
   display: flex;
   flex-wrap: wrap;
